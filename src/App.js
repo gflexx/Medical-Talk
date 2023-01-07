@@ -1,9 +1,9 @@
 import { Stack } from '@mui/material'
 import React from 'react'
 import Feed from './components/Feed'
-import NavBar from './components/NavBar'
-import RightBar from './components/RightBar'
-import SideBar from './components/SideBar'
+import NavBar from './components/nav/NavBar'
+import RightBar from './components/nav/RightBar'
+import SideBar from './components/nav/SideBar'
 
 function App() {
   return (

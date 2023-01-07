@@ -2,7 +2,7 @@ import { AppBar, Box, InputBase, styled, Toolbar, Typography, Badge, Avatar, Men
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import React, { useState } from 'react'
 import { Mail, Notifications } from '@mui/icons-material';
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 
 const StyledToolBar = styled(Toolbar)({
     display: "flex",
