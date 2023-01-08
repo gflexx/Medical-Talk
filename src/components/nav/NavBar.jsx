@@ -28,7 +28,6 @@ const Icons = styled(Box)(({theme}) => ({
 
 const SmallIcons = styled(Box)(({theme}) => ({
     display: "flex",
-    gap: "12.6px",
     alignItems: "center",
     [theme.breakpoints.up("sm")]: {
         display: "none"
@@ -40,7 +39,7 @@ function NavBar() {
     return (
         <AppBar position='sticky'>
             <StyledToolBar>
-                <Typography variant='h6' sx={{display: {xs: "none", sm: "block"}}}>G</Typography>
+                <Typography variant='h6' sx={{display: {xs: "none", sm: "block"}}}>Medical Talk</Typography>
                 <RocketLaunchIcon sx={{display: {xs: "block", sm: "none"}}}/>
                 <SearchBar>
                     <InputBase placeholder='Search...'/>
@@ -58,7 +57,6 @@ function NavBar() {
                 </Icons>
                 <SmallIcons>
                     <Avatar src={logo}/>
-                    <Typography>Glen</Typography>
                 </SmallIcons>
                 <Menu
                     id="demo-positioned-menu"

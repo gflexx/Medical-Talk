@@ -1,4 +1,4 @@
-import { Avatar, Box, Card, CardActions, CardContent, CardHeader, CardMedia, IconButton, Typography } from '@mui/material'
+import { Avatar, Box, Card, CardActions, CardContent, CardHeader, CardMedia, Grid, IconButton, Typography } from '@mui/material'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 import ShareIcon from '@mui/icons-material/Share'
 import React from 'react'
@@ -13,19 +13,21 @@ function BlogItem(props) {
                         R
                         </Avatar>
                     }
-                    title="Some title"
+                    title="Some Title"
                     subheader="September 14, 2022"
                     action={
-                        <Typography component='h6'>John Doe</Typography>
+                        <Typography component='h6' fontSize={15} fontWeight={300}>John Doe</Typography>
                     }
                 />
-                <CardMedia
-                    component="img"
-                    height="198"
-                    image="https://placeimg.com/1320/360/any"
-                    alt="Paella dish"
-                    sx={{justifySelf: "center"}}
-                />
+                <Grid justifyContent='center'>
+                    <CardMedia
+                        component="img"
+                        height="198"
+                        image="https://placeimg.com/1320/360/any"
+                        alt="Paella dish"
+                        sx={{justifySelf: "center"}}
+                    />
+                </Grid>
                 <CardContent>
                     <Typography variant="body2" color="text.secondary">
                         This impressive paella is a perfect party dish and a fun meal to cook

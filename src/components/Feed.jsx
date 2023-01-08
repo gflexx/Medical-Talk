@@ -4,7 +4,7 @@ import BlogItem from './blogs/BlogItem'
 
 function Feed() {
   return (
-    <Box flex={4} p={4} gap={1}>
+    <Box flex={4} p={2} gap={1}>
       <BlogItem/>
       <BlogItem/>
       <BlogItem/>

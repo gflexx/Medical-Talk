@@ -12,7 +12,7 @@ function App() {
       <Stack 
         direction={'row'} 
         spacing={{xs : 0, sm: 0, md: 3}}
-        marginTop={3} 
+        marginTop={1.8} 
         justifyContent={'space-between'}>
         <SideBar/>
         <Feed/>

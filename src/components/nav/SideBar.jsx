@@ -6,6 +6,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import MedicationIcon from '@mui/icons-material/Medication';
+import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import React from 'react'
 
 function SideBar(props) {
@@ -31,6 +33,22 @@ function SideBar(props) {
                             <BookIcon/>
                         </ListItemIcon>
                         <ListItemText primary='Blogs'/>
+                    </ListItemButton>
+                </ListItem>
+                <ListItem disablePadding>
+                    <ListItemButton component='a' href='#'>
+                        <ListItemIcon>
+                            <MedicationIcon/>
+                        </ListItemIcon>
+                        <ListItemText primary='Doctors'/>
+                    </ListItemButton>
+                </ListItem>
+                <ListItem disablePadding>
+                    <ListItemButton component='a' href='#'>
+                        <ListItemIcon>
+                            <FitnessCenterIcon/>
+                        </ListItemIcon>
+                        <ListItemText primary='Fitness'/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
