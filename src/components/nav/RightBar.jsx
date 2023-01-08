@@ -10,8 +10,9 @@ function RightBar() {
         sx={{display: {xs: "none", sm: "block"}}}
         flex={2} 
         p={2}
+        position='sticky'
     >
-        <Box position='fixed'>
+        <Box>
             <OnlineFriends/>
             <TopBlogs/>
             <BlogCategories/>

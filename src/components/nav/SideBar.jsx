@@ -8,7 +8,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import React from 'react'
 
-function SideBar() {
+function SideBar(props) {
   return (
     <Box 
         sx={{display: {xs: "none", sm: "block"}}}
