@@ -20,7 +20,7 @@ function SideBar(props) {
         <Box position="fixed">
             <List>
                 <ListItem disablePadding>
-                    <ListItemButton component='a' href='#'>
+                    <ListItemButton component='a' href='/'>
                         <ListItemIcon>
                             <Home/>
                         </ListItemIcon>
@@ -76,7 +76,7 @@ function SideBar(props) {
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
-                    <ListItemButton component='a' href='#'>
+                    <ListItemButton component='a' href='/admin'>
                         <ListItemIcon>
                             <AdminPanelSettingsIcon/>
                         </ListItemIcon>
