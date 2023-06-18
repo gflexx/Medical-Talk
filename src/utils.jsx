@@ -4,9 +4,9 @@ const searchName = (target, users) => {
     return users.name.lowwerCase().includes(target.lowwerCase())
 }
 
-const utils = [
+const utils = {
     baseUrl,
     searchName
-]
+}
 
 export default utils
