@@ -16,7 +16,9 @@ function AdminSideBar(props) {
         >
             <Box position="fixed">
                 <List>
-                    <ListItem disablePadding>
+                    <ListItem 
+                        onClick={() => props.changeTab(0)}
+                        disablePadding>
                         <ListItemButton component='a'>
                             <ListItemIcon>
                                 <PeopleAltIcon/>
@@ -24,7 +26,9 @@ function AdminSideBar(props) {
                             <ListItemText primary='Users'/>
                         </ListItemButton>
                     </ListItem>
-                    <ListItem disablePadding>
+                    <ListItem 
+                        onClick={() => props.changeTab(1)}
+                        disablePadding>
                         <ListItemButton component='a'>
                             <ListItemIcon>
                                 <VaccinesIcon/>
@@ -32,7 +36,9 @@ function AdminSideBar(props) {
                             <ListItemText primary='Doctors'/>
                         </ListItemButton>
                     </ListItem>
-                    <ListItem disablePadding>
+                    <ListItem 
+                        onClick={() => props.changeTab(2)}
+                        disablePadding>
                         <ListItemButton component='a'>
                             <ListItemIcon>
                                 <LocalHospitalIcon/>
@@ -40,7 +46,9 @@ function AdminSideBar(props) {
                             <ListItemText primary='Hospitals'/>
                         </ListItemButton>
                     </ListItem>
-                    <ListItem disablePadding>
+                    <ListItem 
+                        onClick={() => props.changeTab(3)}
+                        disablePadding>
                         <ListItemButton component='a'>
                             <ListItemIcon>
                                 <CoronavirusIcon/>
@@ -48,7 +56,9 @@ function AdminSideBar(props) {
                             <ListItemText primary='Diseases'/>
                         </ListItemButton>
                     </ListItem>
-                    <ListItem disablePadding>
+                    <ListItem 
+                        onClick={() => props.changeTab(4)}
+                        disablePadding>
                         <ListItemButton component='a'>
                             <ListItemIcon>
                                 <BookIcon/>

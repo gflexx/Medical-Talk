@@ -7,7 +7,7 @@ function UsersTab(props) {
             flex={6}
             padding={2}
         >
-            <Typography variant='h6' fontWeight={500} marginBottom={0.9}>Users tab</Typography>
+            <Typography variant='h6' fontWeight={400} marginBottom={0.9}>Users tab</Typography>
         </Box>
     )
 }
