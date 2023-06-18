@@ -1,6 +1,7 @@
 import { Stack } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import AdminSideBar from '../../components/nav/AdminSideBar'
+import UsersTab from '../../components/admin/UsersTab'
 
 function AdminPanelPage(props) {
     const [activeTab, setActiveTab] = useState(0)
@@ -17,8 +18,13 @@ function AdminPanelPage(props) {
                 justifyContent={'space-between'}
             >
                 <AdminSideBar 
+                    activeTab={activeTab}
                     changeTab={changeTab}
                 />
+                <UsersTab
+                    activeTab={activeTab}
+                    changeTab={changeTab}
+                />  
                 
             </Stack>
         </div>
